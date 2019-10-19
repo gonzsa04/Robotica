@@ -1,4 +1,4 @@
-
+  
   fig1 = ones(4,14);
   fig1 = [ 0 4 4 0 0 4 4 0 0 4 4 0 0 4;
            0 0 6 6 0 0 6 6 2 2 4 4 3 3;
@@ -38,7 +38,7 @@
  
  R = trotx(pi);
  fig2 = R*fig2;
- t = transl(0, 0, -6);
+ t = transl(0, 8, 9.5);
  fig2 = t*fig2;
  
  objplot(fig2, edge2, nvert2, nedge2, 'g');
@@ -56,4 +56,6 @@
  fig2 = t*fig2;
  
  objplot(fig2, edge2, nvert2, nedge2, 'r');
+ 
+ fkine();
  
